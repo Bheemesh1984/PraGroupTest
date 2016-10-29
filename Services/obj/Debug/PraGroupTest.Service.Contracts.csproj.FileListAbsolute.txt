@@ -1,0 +1,7 @@
+C:\Users\bheemesh.tarappagol\Documents\Visual Studio 2012\Projects\PraGroupTest\Services\bin\Debug\Services.dll
+C:\Users\bheemesh.tarappagol\Documents\Visual Studio 2012\Projects\PraGroupTest\Services\bin\Debug\Services.pdb
+C:\Users\bheemesh.tarappagol\Documents\Visual Studio 2012\Projects\PraGroupTest\Services\bin\Debug\PraGroupTest.Core.dll
+C:\Users\bheemesh.tarappagol\Documents\Visual Studio 2012\Projects\PraGroupTest\Services\bin\Debug\PraGroupTest.Core.pdb
+C:\Users\bheemesh.tarappagol\Documents\Visual Studio 2012\Projects\PraGroupTest\Services\obj\Debug\PraGroupTest.Service.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\bheemesh.tarappagol\Documents\Visual Studio 2012\Projects\PraGroupTest\Services\obj\Debug\Services.dll
+C:\Users\bheemesh.tarappagol\Documents\Visual Studio 2012\Projects\PraGroupTest\Services\obj\Debug\Services.pdb

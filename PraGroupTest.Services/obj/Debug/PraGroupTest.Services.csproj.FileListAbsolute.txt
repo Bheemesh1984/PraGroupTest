@@ -1,0 +1,9 @@
+C:\Users\bheemesh.tarappagol\Documents\Visual Studio 2012\Projects\PraGroupTest\PraGroupTest.Services\bin\Debug\PraGroupTest.Services.dll
+C:\Users\bheemesh.tarappagol\Documents\Visual Studio 2012\Projects\PraGroupTest\PraGroupTest.Services\bin\Debug\PraGroupTest.Services.pdb
+C:\Users\bheemesh.tarappagol\Documents\Visual Studio 2012\Projects\PraGroupTest\PraGroupTest.Services\bin\Debug\PraGroupTest.Core.dll
+C:\Users\bheemesh.tarappagol\Documents\Visual Studio 2012\Projects\PraGroupTest\PraGroupTest.Services\bin\Debug\Services.dll
+C:\Users\bheemesh.tarappagol\Documents\Visual Studio 2012\Projects\PraGroupTest\PraGroupTest.Services\bin\Debug\PraGroupTest.Core.pdb
+C:\Users\bheemesh.tarappagol\Documents\Visual Studio 2012\Projects\PraGroupTest\PraGroupTest.Services\bin\Debug\Services.pdb
+C:\Users\bheemesh.tarappagol\Documents\Visual Studio 2012\Projects\PraGroupTest\PraGroupTest.Services\obj\Debug\PraGroupTest.Services.csprojResolveAssemblyReference.cache
+C:\Users\bheemesh.tarappagol\Documents\Visual Studio 2012\Projects\PraGroupTest\PraGroupTest.Services\obj\Debug\PraGroupTest.Services.dll
+C:\Users\bheemesh.tarappagol\Documents\Visual Studio 2012\Projects\PraGroupTest\PraGroupTest.Services\obj\Debug\PraGroupTest.Services.pdb

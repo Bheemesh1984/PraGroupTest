@@ -1,0 +1,101 @@
+﻿@model PraGroupTest.Core.Widget
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="~/Scripts/jquery-3.1.1.min.js"></script>
+    <link href="~/Scripts/jquery.dataTables.min.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery.dataTables.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#Quantity').keypress(function (e) {
+                if (e.which != 8 && e.which != 0 && (e.which < 47 || e.which > 57)) {
+                    $("#errMsg").html("Numbers Only").show().fadeOut("slow");
+                    return false;
+                }
+            })
+        });
+
+        function GetTotalPrice() {
+            var basePrice = document.getElementById('BasePrice').value;
+            var discountIndicator = document.getElementById('DiscountIndicator').checked;
+            var stateTax = document.getElementById('States').value;
+            var quantity = document.getElementById('Quantity').value;
+            var url = '@Url.Action("TotalPrice", "Widget", null, Request.Url.Scheme)' + '/';
+
+            $.ajax({
+                url: url,
+                data: { basePrice: basePrice, discountIndicator: discountIndicator, stateTax: stateTax, quantity: quantity },
+                cache: false,
+                type: "POST",
+                success: function (data) {
+                    $('#resultdiv').html(data);
+                },
+                error: function (xhr, status, error) {
+                    $('#resultdiv').empty();
+                    $('#resultdiv').html(xhr.responseText);
+                }
+            });
+        }
+
+    </script>
+</head>
+<body>
+    <div style="vertical-align: central initial">
+        <table id="datatable">
+            <tr>
+                <td>Widget </td>
+                <td>@Html.DisplayFor(item => @Model.Name)</td>
+            </tr>
+            <tr>
+                <td>Base Price</td>
+                <td>
+                    @Html.TextBoxFor(item => @Model.BasePrice, new { @readonly = "readonly" }) $
+                </td>
+            </tr>
+            <tr>
+                <td>Discount Indicator 10%</td>
+                <td>@Html.CheckBoxFor(item => @Model.DiscountIndicator, new { @disabled = "disabled" }) </td>
+            </tr>
+            <tr>
+                <td>Qunaity </td>
+                <td>@Html.TextBox("Quantity")</td>
+                <td>
+                    <div id="errMsg"></div>
+
+                </td>
+            </tr>
+            <tr>
+                <td>Select State</td>
+                <td>@Html.DropDownList("States", "Select a State")</td>
+            </tr>
+            <tr>
+
+                <td colspan="2"">
+                    <div style="padding-top: 30px;">
+                        <input id="TotalPriceButton" class="btn btn-default" onclick="GetTotalPrice()" value="Calculate Total Price" type="button" />
+                    </div>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td colspan="2"">
+                    <div id="resultdiv" style="padding-top: 30px"></div>
+                </td>
+            </tr>
+        </table>
+        <div style="padding-top: 50px">
+            @Html.ActionLink("Return to Widget List", "Index")
+
+        </div>
+    </div>
+</body>

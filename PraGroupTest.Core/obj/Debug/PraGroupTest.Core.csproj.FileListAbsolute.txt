@@ -1,0 +1,4 @@
+C:\Users\bheemesh.tarappagol\Documents\Visual Studio 2012\Projects\PraGroupTest\PraGroupTest.Core\bin\Debug\PraGroupTest.Core.dll
+C:\Users\bheemesh.tarappagol\Documents\Visual Studio 2012\Projects\PraGroupTest\PraGroupTest.Core\bin\Debug\PraGroupTest.Core.pdb
+C:\Users\bheemesh.tarappagol\Documents\Visual Studio 2012\Projects\PraGroupTest\PraGroupTest.Core\obj\Debug\PraGroupTest.Core.dll
+C:\Users\bheemesh.tarappagol\Documents\Visual Studio 2012\Projects\PraGroupTest\PraGroupTest.Core\obj\Debug\PraGroupTest.Core.pdb

@@ -1,0 +1,49 @@
+﻿@model IEnumerable<PraGroupTest.Core.Widget>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="~/Scripts/jquery-3.1.1.min.js"></script>
+    <link href="~/Scripts/jquery.dataTables.min.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery.dataTables.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#datatable').DataTable();
+        });
+
+    </script>
+</head>
+<body>
+    <div style="width:500px; border: 1px solid black; padding:10px">
+        <table id="datatable">
+            <thead>
+                <tr>
+                    <th>WidgetID</th>
+                    <th>WidgetName</th>
+                    <th>BasePrice</th>
+                    <th>Discount? 10%</th>
+                </tr>
+            </thead>
+            @foreach (var item in Model)
+            { 
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.WidgetID)</td>
+                   <td> @Html.ActionLink(item.Name, "Details",new{@id =item.WidgetID})</td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.BasePrice)
+                    </td>
+                    <td>@Html.DisplayFor(modelItem => item.DiscountIndicator)</td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>

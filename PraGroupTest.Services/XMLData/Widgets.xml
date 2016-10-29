@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Widgets >
+  <Widget>
+    <WidgetID>1</WidgetID>
+    <Name>DebtCollector</Name>
+    <BasePrice>50</BasePrice>
+    <DiscountIndicator>false</DiscountIndicator>
+  </Widget>                          
+  <Widget>
+    <WidgetID>2</WidgetID>
+    <Name>TaxCalculator</Name>
+    <BasePrice>80</BasePrice>
+    <DiscountIndicator>false</DiscountIndicator>
+  </Widget>
+<Widget>
+  <WidgetID>3</WidgetID>
+    <Name>WordProgram</Name>
+    <BasePrice>50</BasePrice>
+    <DiscountIndicator>false</DiscountIndicator>
+  </Widget>                          
+  <Widget>
+    <WidgetID>4</WidgetID>
+    <Name>Paint</Name>
+    <BasePrice>80</BasePrice>
+    <DiscountIndicator>true</DiscountIndicator>
+  </Widget>
+<Widget>
+  <WidgetID>5</WidgetID>
+    <Name>Excel</Name>
+    <BasePrice>50</BasePrice>
+    <DiscountIndicator>true</DiscountIndicator>
+  </Widget>                          
+  <Widget>
+    <WidgetID>6</WidgetID>
+    <Name>MSVisio</Name>
+    <BasePrice>80</BasePrice>
+    <DiscountIndicator>true</DiscountIndicator>
+  </Widget>
+<Widget>
+  <WidgetID>7</WidgetID>
+    <Name>Java</Name>
+    <BasePrice>50</BasePrice>
+    <DiscountIndicator>true</DiscountIndicator>
+  </Widget>                          
+  <Widget>
+    <WidgetID>8</WidgetID>
+    <Name>TaxCalculator</Name>
+    <BasePrice>80</BasePrice>
+    <DiscountIndicator>true</DiscountIndicator>
+  </Widget>
+<Widget>
+  <WidgetID>9</WidgetID>
+    <Name>DebtCollector</Name>
+    <BasePrice>50</BasePrice>
+    <DiscountIndicator>true</DiscountIndicator>
+  </Widget>                          
+  <Widget>
+    <WidgetID>10</WidgetID>
+    <Name>TaxCalculator</Name>
+    <BasePrice>80</BasePrice>
+    <DiscountIndicator>true</DiscountIndicator>
+  </Widget>
+  <Widget>
+  <WidgetID>11</WidgetID>
+  <Name>DebtCollector</Name>
+  <BasePrice>50</BasePrice>
+  <DiscountIndicator>true</DiscountIndicator>
+  </Widget>
+  <Widget>
+    <WidgetID>12</WidgetID>
+    <Name>TaxCalculator</Name>
+    <BasePrice>80</BasePrice>
+    <DiscountIndicator>true</DiscountIndicator>
+  </Widget>
+</Widgets>

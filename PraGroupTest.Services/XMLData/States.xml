@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<States>
+  <State>
+    <StateID>1</StateID>
+    <StateName>IL</StateName>
+    <Country>USA</Country>
+    <TaxCalculatordll>ILPriceCalculator</TaxCalculatordll>
+  </State>
+  <State>
+    <StateID>2</StateID>
+    <StateName>OH</StateName>
+    <Country>USA</Country>
+    <TaxCalculatordll>OHPriceCalculator</TaxCalculatordll>
+  </State>
+  <State>
+    <StateID>3</StateID>
+    <StateName>TX</StateName>
+    <Country>USA</Country>
+    <TaxCalculatordll>TXPriceCalculator</TaxCalculatordll>
+  </State>
+  <State>
+    <StateID>4</StateID>
+    <StateName>IN</StateName>
+    <Country>USA</Country>
+    <TaxCalculatordll>INPriceCalculator</TaxCalculatordll>
+  </State>
+  <State>
+    <StateID>5</StateID>
+    <StateName>FL</StateName>
+    <Country>USA</Country>
+    <TaxCalculatordll>FLPriceCalculator</TaxCalculatordll>
+  </State> 
+</States>
